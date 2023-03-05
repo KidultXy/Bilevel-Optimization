@@ -1,0 +1,163 @@
+args: Namespace(optimizer='stocBiO', num_classes=10, batch_size=480, spider_size=32, test_size=480, training_size=20000, validation_size=5000, epochs=40, iterations=200, pretrain_epoch=5, spider_epoch=3, outer_lr=0.1, inner_lr=0.1, eta=0.5, noise_rate=0.1, hessianQ=3, data_path='data/', results_path='./results\\stocBiO')
+Epoch: 0 Train Loss: 18.5848 Test Loss: 18.9656
+Inner update: 0.7004
+Outer update: 0.1808
+Epoch: 1 Train Loss: 2.7032 Test Loss: 2.7227 Time: 4.7976
+Inner update: 0.7598
+Outer update: 0.9961
+Epoch: 2 Train Loss: 2.9127 Test Loss: 2.9584 Time: 10.5319
+Inner update: 0.9731
+Outer update: 2.6389
+Epoch: 3 Train Loss: 3.0087 Test Loss: 3.0563 Time: 17.1673
+Inner update: 0.7118
+Outer update: 2.3819
+Epoch: 4 Train Loss: 3.0092 Test Loss: 3.0539 Time: 24.5353
+Inner update: 0.7951
+Outer update: 4.3907
+Epoch: 5 Train Loss: 2.9306 Test Loss: 2.9689 Time: 33.5607
+Inner update: 0.7369
+Outer update: 6.6604
+Epoch: 6 Train Loss: 2.8763 Test Loss: 2.9011 Time: 44.6746
+Inner update: 0.7744
+Outer update: 3.4263
+Epoch: 7 Train Loss: 2.8362 Test Loss: 2.8622 Time: 56.6427
+Inner update: 0.7809
+Outer update: 40.5875
+Epoch: 8 Train Loss: 2.8016 Test Loss: 2.8220 Time: 69.1812
+Inner update: 0.8011
+Outer update: 11.6890
+Epoch: 9 Train Loss: 2.6773 Test Loss: 2.6969 Time: 82.1624
+Inner update: 0.6805
+Outer update: 7.1322
+Epoch: 10 Train Loss: 2.6411 Test Loss: 2.6632 Time: 96.5118
+Inner update: 0.8376
+Outer update: 4.1751
+Epoch: 11 Train Loss: 2.5185 Test Loss: 2.5405 Time: 112.9884
+Inner update: 0.6736
+Outer update: 3.2915
+Epoch: 12 Train Loss: 2.5531 Test Loss: 2.5751 Time: 130.5299
+Inner update: 0.8566
+Outer update: 10.3491
+Epoch: 13 Train Loss: 2.4571 Test Loss: 2.4786 Time: 149.1787
+Inner update: 0.7823
+Outer update: 9.7238
+Epoch: 14 Train Loss: 2.4867 Test Loss: 2.4957 Time: 168.8694
+Inner update: 0.6899
+Outer update: 7.4008
+Epoch: 15 Train Loss: 2.4359 Test Loss: 2.4484 Time: 190.9429
+Inner update: 0.5472
+Outer update: 3.5246
+Epoch: 16 Train Loss: 2.4010 Test Loss: 2.4129 Time: 212.8617
+Inner update: 0.7855
+Outer update: 23.7770
+Epoch: 17 Train Loss: 2.4488 Test Loss: 2.4626 Time: 236.1006
+Inner update: 0.6987
+Outer update: 18.4821
+Epoch: 18 Train Loss: 2.4695 Test Loss: 2.4823 Time: 260.4224
+Inner update: 0.6800
+Outer update: 27.3553
+Epoch: 19 Train Loss: 2.4199 Test Loss: 2.4311 Time: 285.6669
+Inner update: 0.7347
+Outer update: 8.5598
+Epoch: 20 Train Loss: 2.4145 Test Loss: 2.4259 Time: 312.8573
+Inner update: 1.0481
+Outer update: 12.5023
+Epoch: 21 Train Loss: 2.3773 Test Loss: 2.3817 Time: 344.5988
+Inner update: 0.9250
+Outer update: 31.5403
+Epoch: 22 Train Loss: 2.4061 Test Loss: 2.4160 Time: 379.1553
+Inner update: 0.7655
+Outer update: 22.3432
+Epoch: 23 Train Loss: 2.3731 Test Loss: 2.3815 Time: 413.3408
+Inner update: 0.7402
+Outer update: 21.2137
+Epoch: 24 Train Loss: 2.3905 Test Loss: 2.3959 Time: 451.2412
+Inner update: 0.7048
+Outer update: 16.7101
+Epoch: 25 Train Loss: 2.3472 Test Loss: 2.3509 Time: 488.2467
+Inner update: 0.7561
+Outer update: 18.6591
+Epoch: 26 Train Loss: 2.3840 Test Loss: 2.3830 Time: 527.0931
+Inner update: 0.9546
+Outer update: 51.5097
+Epoch: 27 Train Loss: 2.4014 Test Loss: 2.4068 Time: 571.8082
+Inner update: 1.0295
+Outer update: 35.3859
+Epoch: 28 Train Loss: 2.4170 Test Loss: 2.4215 Time: 614.6875
+Inner update: 0.7285
+Outer update: 12.0299
+Epoch: 29 Train Loss: 2.3544 Test Loss: 2.3528 Time: 661.9697
+Inner update: 0.7682
+Outer update: 8.6683
+Epoch: 30 Train Loss: 2.3441 Test Loss: 2.3420 Time: 708.4110
+Inner update: 0.6867
+Outer update: 7.9170
+Epoch: 31 Train Loss: 2.3426 Test Loss: 2.3386 Time: 761.2180
+Inner update: 0.8504
+Outer update: 14.2402
+Epoch: 32 Train Loss: 2.3481 Test Loss: 2.3420 Time: 815.3101
+Inner update: 0.6466
+Outer update: 24.6186
+Epoch: 33 Train Loss: 2.3432 Test Loss: 2.3398 Time: 871.2586
+Inner update: 0.8380
+Outer update: 26.8913
+Epoch: 34 Train Loss: 2.3844 Test Loss: 2.3861 Time: 925.4806
+Inner update: 0.6971
+Outer update: 5.3235
+Epoch: 35 Train Loss: 2.3720 Test Loss: 2.3745 Time: 981.5468
+Inner update: 0.7034
+Outer update: 13.0568
+Epoch: 36 Train Loss: 2.3659 Test Loss: 2.3706 Time: 1039.5649
+Inner update: 0.8061
+Outer update: 19.9776
+Epoch: 37 Train Loss: 2.4003 Test Loss: 2.4039 Time: 1097.3354
+Inner update: 0.9728
+Outer update: 29.9018
+Epoch: 38 Train Loss: 2.3880 Test Loss: 2.3879 Time: 1157.8337
+Inner update: 0.6823
+Outer update: 13.6930
+Epoch: 39 Train Loss: 2.3930 Test Loss: 2.3909 Time: 1216.5538
+Inner update: 0.6539
+Outer update: 7.0587
+Epoch: 40 Train Loss: 2.3635 Test Loss: 2.3668 Time: 1280.8532
+[[1.85848160e+01 1.89656467e+01 0.00000000e+00 0.00000000e+00]
+ [2.70315695e+00 2.72266340e+00 4.79758406e+00 7.00365841e-01]
+ [2.91273165e+00 2.95843863e+00 1.05318916e+01 7.59760916e-01]
+ [3.00869489e+00 3.05625868e+00 1.71672904e+01 9.73132312e-01]
+ [3.00915313e+00 3.05391431e+00 2.45352836e+01 7.11757183e-01]
+ [2.93055177e+00 2.96894193e+00 3.35607252e+01 7.95148492e-01]
+ [2.87629914e+00 2.90108156e+00 4.46745510e+01 7.36874104e-01]
+ [2.83619308e+00 2.86218691e+00 5.66426852e+01 7.74417877e-01]
+ [2.80159450e+00 2.82201266e+00 6.91812232e+01 7.80943036e-01]
+ [2.67730069e+00 2.69692063e+00 8.21624322e+01 8.01086545e-01]
+ [2.64107394e+00 2.66323042e+00 9.65117822e+01 6.80453062e-01]
+ [2.51851678e+00 2.54046154e+00 1.12988371e+02 8.37553859e-01]
+ [2.55311298e+00 2.57506323e+00 1.30529929e+02 6.73557460e-01]
+ [2.45705295e+00 2.47856593e+00 1.49178739e+02 8.56567919e-01]
+ [2.48665237e+00 2.49565244e+00 1.68869370e+02 7.82263875e-01]
+ [2.43592238e+00 2.44841814e+00 1.90942883e+02 6.89895391e-01]
+ [2.40101242e+00 2.41293073e+00 2.12861701e+02 5.47204494e-01]
+ [2.44880629e+00 2.46256185e+00 2.36100621e+02 7.85488904e-01]
+ [2.46946502e+00 2.48230600e+00 2.60422405e+02 6.98707283e-01]
+ [2.41986513e+00 2.43108964e+00 2.85666936e+02 6.79952145e-01]
+ [2.41453767e+00 2.42594099e+00 3.12857304e+02 7.34681427e-01]
+ [2.37733340e+00 2.38165998e+00 3.44598783e+02 1.04809880e+00]
+ [2.40606546e+00 2.41597939e+00 3.79155269e+02 9.25016463e-01]
+ [2.37308288e+00 2.38154650e+00 4.13340791e+02 7.65514195e-01]
+ [2.39045715e+00 2.39592457e+00 4.51241181e+02 7.40179241e-01]
+ [2.34717464e+00 2.35093427e+00 4.88246674e+02 7.04782188e-01]
+ [2.38396525e+00 2.38301158e+00 5.27093120e+02 7.56138980e-01]
+ [2.40142107e+00 2.40676904e+00 5.71808196e+02 9.54614341e-01]
+ [2.41699767e+00 2.42146802e+00 6.14687542e+02 1.02947295e+00]
+ [2.35441017e+00 2.35278344e+00 6.61969723e+02 7.28468537e-01]
+ [2.34407187e+00 2.34199119e+00 7.08410954e+02 7.68152714e-01]
+ [2.34264660e+00 2.33855343e+00 7.61218011e+02 6.86715245e-01]
+ [2.34814739e+00 2.34202766e+00 8.15310075e+02 8.50362480e-01]
+ [2.34324861e+00 2.33982897e+00 8.71258601e+02 6.46585524e-01]
+ [2.38443089e+00 2.38606596e+00 9.25480590e+02 8.38045061e-01]
+ [2.37201643e+00 2.37446856e+00 9.81546826e+02 6.97062194e-01]
+ [2.36586738e+00 2.37059879e+00 1.03956492e+03 7.03352571e-01]
+ [2.40032911e+00 2.40390515e+00 1.09733539e+03 8.06119978e-01]
+ [2.38801789e+00 2.38792491e+00 1.15783370e+03 9.72834051e-01]
+ [2.39302564e+00 2.39093947e+00 1.21655380e+03 6.82324708e-01]
+ [2.36348081e+00 2.36676049e+00 1.28085324e+03 6.53855503e-01]]

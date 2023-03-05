@@ -1,0 +1,123 @@
+args: Namespace(optimizer='MSTSA', num_classes=10, batch_size=480, test_size=480, train_size=20000, val_size=5000, vrsample_size=32, batch_num=41, epochs=40, iterations=200, vr_epoch=3, outer_lr=0.1, inner_lr=0.1, eta=0.5, noise_rate=0.1, hessianQ=3, data_path='data/', results_path='./results\\MSTSA')        
+Initial: Train loss: 17.0641 Test loss: 16.9667
+Outer variation: 0.32007
+Epoch: 1 Train loss: 15.69831 Test loss: 15.63355 Time cost: 5.19975
+Outer variation: 0.30910
+Epoch: 2 Train loss: 14.91640 Test loss: 14.87253 Time cost: 9.41403
+Outer variation: 0.26738
+Epoch: 3 Train loss: 14.38666 Test loss: 14.34155 Time cost: 13.62132
+Outer variation: 0.23503
+Epoch: 4 Train loss: 13.96802 Test loss: 13.92162 Time cost: 17.80919
+Outer variation: 0.24871
+Epoch: 5 Train loss: 13.60373 Test loss: 13.54673 Time cost: 22.02299
+Outer variation: 0.22523
+Epoch: 6 Train loss: 13.32227 Test loss: 13.26477 Time cost: 26.20585
+Outer variation: 0.25757
+Epoch: 7 Train loss: 13.09940 Test loss: 13.04013 Time cost: 30.37923
+Outer variation: 0.18756
+Epoch: 8 Train loss: 12.88539 Test loss: 12.82338 Time cost: 34.58302
+Outer variation: 0.18616
+Epoch: 9 Train loss: 12.69523 Test loss: 12.63061 Time cost: 38.76188
+Outer variation: 0.21595
+Epoch: 10 Train loss: 12.51896 Test loss: 12.45135 Time cost: 42.92577
+Outer variation: 0.20595
+Epoch: 11 Train loss: 12.34586 Test loss: 12.27701 Time cost: 47.15760
+Outer variation: 0.18663
+Epoch: 12 Train loss: 12.17671 Test loss: 12.10957 Time cost: 51.32897
+Outer variation: 0.15074
+Epoch: 13 Train loss: 12.01523 Test loss: 11.94577 Time cost: 55.50736
+Outer variation: 0.17539
+Epoch: 14 Train loss: 11.85660 Test loss: 11.78740 Time cost: 59.62786
+Outer variation: 0.16845
+Epoch: 15 Train loss: 11.72480 Test loss: 11.65442 Time cost: 63.78877
+Outer variation: 0.13468
+Epoch: 16 Train loss: 11.60524 Test loss: 11.53273 Time cost: 67.95022
+Outer variation: 0.14625
+Epoch: 17 Train loss: 11.48091 Test loss: 11.40732 Time cost: 72.12658
+Outer variation: 0.16130
+Epoch: 18 Train loss: 11.37006 Test loss: 11.29542 Time cost: 76.30146
+Outer variation: 0.15220
+Epoch: 19 Train loss: 11.26887 Test loss: 11.19549 Time cost: 80.52870
+Outer variation: 0.13482
+Epoch: 20 Train loss: 11.16738 Test loss: 11.09256 Time cost: 84.78591
+Outer variation: 0.13099
+Epoch: 21 Train loss: 11.07249 Test loss: 10.99552 Time cost: 88.94532
+Outer variation: 0.12908
+Epoch: 22 Train loss: 10.97252 Test loss: 10.89350 Time cost: 93.12918
+Outer variation: 0.12654
+Epoch: 23 Train loss: 10.87844 Test loss: 10.80168 Time cost: 97.33203
+Outer variation: 0.11808
+Epoch: 24 Train loss: 10.79284 Test loss: 10.71413 Time cost: 101.68871
+Outer variation: 0.10205
+Epoch: 25 Train loss: 10.70367 Test loss: 10.62711 Time cost: 106.09051
+Outer variation: 0.11215
+Epoch: 26 Train loss: 10.62075 Test loss: 10.54431 Time cost: 110.41556
+Outer variation: 0.15493
+Epoch: 27 Train loss: 10.55260 Test loss: 10.47288 Time cost: 114.68427
+Outer variation: 0.11990
+Epoch: 28 Train loss: 10.48318 Test loss: 10.40430 Time cost: 118.87224
+Outer variation: 0.12357
+Epoch: 29 Train loss: 10.41825 Test loss: 10.33802 Time cost: 123.14636
+Outer variation: 0.11238
+Epoch: 30 Train loss: 10.35250 Test loss: 10.27106 Time cost: 127.43500
+Outer variation: 0.11990
+Epoch: 31 Train loss: 10.29239 Test loss: 10.20960 Time cost: 131.60988
+Outer variation: 0.10074
+Epoch: 32 Train loss: 10.22869 Test loss: 10.14511 Time cost: 135.86278
+Outer variation: 0.09154
+Epoch: 33 Train loss: 10.16883 Test loss: 10.08553 Time cost: 140.06268
+Outer variation: 0.11288
+Epoch: 34 Train loss: 10.10841 Test loss: 10.02493 Time cost: 144.27153
+Outer variation: 0.09496
+Epoch: 35 Train loss: 10.04874 Test loss: 9.96246 Time cost: 148.45242
+Outer variation: 0.08637
+Epoch: 36 Train loss: 9.99591 Test loss: 9.90825 Time cost: 152.70505
+Outer variation: 0.10017
+Epoch: 37 Train loss: 9.94602 Test loss: 9.85680 Time cost: 156.86151
+Outer variation: 0.09907
+Epoch: 38 Train loss: 9.88623 Test loss: 9.79423 Time cost: 161.09173
+Outer variation: 0.09635
+Epoch: 39 Train loss: 9.82834 Test loss: 9.73439 Time cost: 165.55584
+Outer variation: 0.13794
+Epoch: 40 Train loss: 9.77723 Test loss: 9.68264 Time cost: 169.75068
+history: [[ 17.06407166  16.96673012   0.           0.        ]
+ [ 15.69830513  15.63354778   5.19975471   0.        ]
+ [ 14.91639805  14.87252617   9.4140327    0.        ]
+ [ 14.38665962  14.34154987  13.62132335   0.        ]
+ [ 13.96801567  13.92162037  17.80918789   0.        ]
+ [ 13.60372734  13.54672813  22.02298689   0.        ]
+ [ 13.32226753  13.26476574  26.20584989   0.        ]
+ [ 13.09940243  13.04012871  30.37923026   0.        ]
+ [ 12.88538933  12.82338428  34.58302164   0.        ]
+ [ 12.69523335  12.63061237  38.76188207   0.        ]
+ [ 12.51895809  12.45135021  42.92577147   0.        ]
+ [ 12.34586048  12.27701378  47.1576035    0.        ]
+ [ 12.17670536  12.10957146  51.32897019   0.        ]
+ [ 12.01523399  11.9457674   55.50735807   0.        ]
+ [ 11.85659599  11.78739738  59.62785983   0.        ]
+ [ 11.72480392  11.65442181  63.78876781   0.        ]
+ [ 11.60524368  11.53273296  67.95022035   0.        ]
+ [ 11.48091221  11.40732479  72.1265831    0.        ]
+ [ 11.37005615  11.29542065  76.30146146   0.        ]
+ [ 11.26886559  11.19548798  80.52870274   0.        ]
+ [ 11.16738033  11.09256077  84.78590822   0.        ]
+ [ 11.07249451  10.99551582  88.94532299   0.        ]
+ [ 10.97252464  10.89349556  93.12918162   0.        ]
+ [ 10.8784399   10.80167961  97.33202934   0.        ]
+ [ 10.79284382  10.71412659 101.68870997   0.        ]
+ [ 10.70367241  10.62711048 106.09050894   0.        ]
+ [ 10.62075329  10.54430866 110.4155581    0.        ]
+ [ 10.55259895  10.47287846 114.68427444   0.        ]
+ [ 10.48317909  10.40429974 118.87224102   0.        ]
+ [ 10.41825199  10.33801746 123.14636469   0.        ]
+ [ 10.35250282  10.27106476 127.43499541   0.        ]
+ [ 10.29239368  10.20960236 131.60988021   0.        ]
+ [ 10.22869015  10.14511299 135.86277914   0.        ]
+ [ 10.16883183  10.08552742 140.0626843    0.        ]
+ [ 10.10840988  10.02493191 144.27153039   0.        ]
+ [ 10.04873848   9.96246338 148.45241618   0.        ]
+ [  9.99591446   9.9082489  152.70505476   0.        ]
+ [  9.94601631   9.85679817 156.86151314   0.        ]
+ [  9.88623333   9.79423428 161.09173274   0.        ]
+ [  9.82833672   9.73438549 165.55583644   0.        ]
+ [  9.77722549   9.68264294 169.75067973   0.        ]]

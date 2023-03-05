@@ -1,0 +1,172 @@
+args: Namespace(optimizer='MRBO', num_classes=10, batch_size=480, spider_size=32, test_size=480, training_size=20000, validation_size=5000, epochs=40, iterations=200, pretrain_epoch=5, spider_epoch=3, outer_lr=0.1, inner_lr=0.1, eta=0.5, noise_rate=0.1, hessianQ=3, data_path='data/', results_path='./results\\MRBO')
+Epoch: 0 Train Loss: 24.8127 Test Loss: 25.3115
+Traceback (most recent call last):
+  File "d:\Desktop\随机过程\期末\code\MRBO.py", line 110, in <module>
+    MRBO_train(args, torch.device('cpu'), train_loader, test_loader, spider_loader)
+  File "d:\Desktop\随机过程\期末\code\MRBO.py", line 80, in MRBO_train
+    outer_update = torch.squeeze(outer_update)
+UnboundLocalError: local variable 'outer_update' referenced before assignment
+PS D:\Desktop\随机过程\期末\code> python -u "d:\Desktop\随机过程\期末\code\train.py"
+args: Namespace(optimizer='MRBO', num_classes=10, batch_size=480, spider_size=32, test_size=480, training_size=20000, validation_size=5000, epochs=40, iterations=200, pretrain_epoch=5, spider_epoch=3, outer_lr=0.1, inner_lr=0.1, eta=0.5, noise_rate=0.1, hessianQ=3, data_path='data/', results_path='./results\\MRBO')
+Epoch: 0 Train Loss: 17.8373 Test Loss: 17.9716
+Inner update: 3.1774
+Outer update: 2.1848
+Epoch: 1 Train Loss: 14.9999 Test Loss: 15.0971 Time: 4.3653
+Inner update: 2.2695
+Outer update: 0.5233
+Epoch: 2 Train Loss: 13.3485 Test Loss: 13.4152 Time: 8.6020
+Inner update: 1.8306
+Outer update: 0.4633
+Epoch: 3 Train Loss: 12.1652 Test Loss: 12.1934 Time: 12.8428
+Inner update: 1.8571
+Outer update: 0.4428
+Epoch: 4 Train Loss: 11.0349 Test Loss: 11.0321 Time: 17.2029
+Inner update: 1.8250
+Outer update: 0.3718
+Epoch: 5 Train Loss: 10.0025 Test Loss: 9.9770 Time: 21.5516
+Inner update: 1.5109
+Outer update: 0.3206
+Epoch: 6 Train Loss: 9.3041 Test Loss: 9.2705 Time: 25.8680
+Inner update: 1.4772
+Outer update: 0.2608
+Epoch: 7 Train Loss: 8.6591 Test Loss: 8.6266 Time: 30.1331
+Inner update: 1.3775
+Outer update: 0.2448
+Epoch: 8 Train Loss: 8.1191 Test Loss: 8.0716 Time: 34.4516
+Inner update: 1.2736
+Outer update: 0.1876
+Epoch: 9 Train Loss: 7.6304 Test Loss: 7.5718 Time: 38.7968
+Inner update: 1.1921
+Outer update: 0.1811
+Epoch: 10 Train Loss: 7.1992 Test Loss: 7.1380 Time: 43.1132
+Inner update: 1.1667
+Outer update: 0.1207
+Epoch: 11 Train Loss: 6.7987 Test Loss: 6.7268 Time: 47.2447
+Inner update: 0.9985
+Outer update: 0.1854
+Epoch: 12 Train Loss: 6.5305 Test Loss: 6.4602 Time: 51.5450
+Inner update: 1.0952
+Outer update: 0.1702
+Epoch: 13 Train Loss: 6.2765 Test Loss: 6.2079 Time: 55.8097
+Inner update: 0.9650
+Outer update: 0.1317
+Epoch: 14 Train Loss: 5.9806 Test Loss: 5.9082 Time: 60.1039
+Inner update: 0.9840
+Outer update: 0.1484
+Epoch: 15 Train Loss: 5.7333 Test Loss: 5.6559 Time: 64.4461
+Inner update: 0.8768
+Outer update: 0.1204
+Epoch: 16 Train Loss: 5.5671 Test Loss: 5.4867 Time: 68.7292
+Inner update: 1.0324
+Outer update: 0.1005
+Epoch: 17 Train Loss: 5.3115 Test Loss: 5.2233 Time: 73.0641
+Inner update: 0.9692
+Outer update: 0.1588
+Epoch: 18 Train Loss: 5.1861 Test Loss: 5.0972 Time: 77.2711
+Inner update: 0.9585
+Outer update: 0.1057
+Epoch: 19 Train Loss: 5.0188 Test Loss: 4.9315 Time: 81.6492
+Inner update: 0.9567
+Outer update: 0.1901
+Epoch: 20 Train Loss: 4.9022 Test Loss: 4.8237 Time: 85.9218
+Inner update: 0.9528
+Outer update: 0.1165
+Epoch: 21 Train Loss: 4.7352 Test Loss: 4.6405 Time: 90.1282
+Inner update: 0.8638
+Outer update: 0.1304
+Epoch: 22 Train Loss: 4.6482 Test Loss: 4.5440 Time: 94.5370
+Inner update: 0.8644
+Outer update: 0.0862
+Epoch: 23 Train Loss: 4.4997 Test Loss: 4.4065 Time: 98.8870
+Inner update: 0.8076
+Outer update: 0.0830
+Epoch: 24 Train Loss: 4.3656 Test Loss: 4.2663 Time: 103.4050
+Inner update: 0.9295
+Outer update: 0.0896
+Epoch: 25 Train Loss: 4.2271 Test Loss: 4.1273 Time: 107.9918
+Inner update: 0.7874
+Outer update: 0.1107
+Epoch: 26 Train Loss: 4.1737 Test Loss: 4.0714 Time: 112.3737
+Inner update: 0.9114
+Outer update: 0.0664
+Epoch: 27 Train Loss: 4.1270 Test Loss: 4.0428 Time: 116.6527
+Inner update: 0.7890
+Outer update: 0.0736
+Epoch: 28 Train Loss: 4.1378 Test Loss: 4.0643 Time: 122.9215
+Inner update: 0.8652
+Outer update: 0.1058
+Epoch: 29 Train Loss: 4.0253 Test Loss: 3.9561 Time: 127.2709
+Inner update: 0.8697
+Outer update: 0.0775
+Epoch: 30 Train Loss: 3.9405 Test Loss: 3.8695 Time: 131.6054
+Inner update: 0.7304
+Outer update: 0.0753
+Epoch: 31 Train Loss: 3.8917 Test Loss: 3.8060 Time: 135.8841
+Inner update: 0.7498
+Outer update: 0.1536
+Epoch: 32 Train Loss: 3.8767 Test Loss: 3.8043 Time: 140.1512
+Inner update: 0.7795
+Outer update: 0.0738
+Epoch: 33 Train Loss: 3.8484 Test Loss: 3.7865 Time: 144.4069
+Inner update: 0.7985
+Outer update: 0.0670
+Epoch: 34 Train Loss: 3.7853 Test Loss: 3.7202 Time: 148.6817
+Inner update: 0.8758
+Outer update: 0.0806
+Epoch: 35 Train Loss: 3.7512 Test Loss: 3.6833 Time: 153.0542
+Inner update: 0.7645
+Outer update: 0.1852
+Epoch: 36 Train Loss: 3.7102 Test Loss: 3.6325 Time: 157.3346
+Inner update: 0.7713
+Outer update: 0.0628
+Epoch: 37 Train Loss: 3.7002 Test Loss: 3.6284 Time: 161.6141
+Inner update: 0.7587
+Outer update: 0.0735
+Epoch: 38 Train Loss: 3.6795 Test Loss: 3.6085 Time: 167.9863
+Inner update: 0.7777
+Outer update: 0.0463
+Epoch: 39 Train Loss: 3.5753 Test Loss: 3.5053 Time: 172.3510
+Inner update: 0.9176
+Outer update: 0.0789
+Epoch: 40 Train Loss: 3.5410 Test Loss: 3.4784 Time: 176.7338
+[[ 17.83733177  17.97155762   0.           0.        ]
+ [ 14.99988651  15.09712887   4.36530852   3.1773634 ]
+ [ 13.34847355  13.41517162   8.60197186   2.26952291]
+ [ 12.16521072  12.19340038  12.84282041   1.83055031]
+ [ 11.03485107  11.0321312   17.20290637   1.8570863 ]
+ [ 10.00246811   9.97696781  21.55158138   1.82496011]
+ [  9.30414677   9.27050972  25.86800575   1.51093996]
+ [  8.65907001   8.62663174  30.1331327    1.47723484]
+ [  8.11910629   8.07155418  34.45159721   1.37750137]
+ [  7.63040972   7.57181787  38.79683399   1.27362764]
+ [  7.19922018   7.13804626  43.11321998   1.19206083]
+ [  6.79866982   6.72675657  47.24466515   1.16669762]
+ [  6.53053617   6.46017313  51.54503202   0.99846441]
+ [  6.27645206   6.20786905  55.80970764   1.0951854 ]
+ [  5.98056793   5.90817213  60.10388875   0.9649958 ]
+ [  5.73331118   5.65592718  64.44606948   0.98404533]
+ [  5.56712484   5.48665285  68.72917271   0.87681574]
+ [  5.31150627   5.22328424  73.06414056   1.03243911]
+ [  5.1861496    5.09718227  77.27108359   0.96924716]
+ [  5.01884174   4.93149185  81.6492281    0.95848632]
+ [  4.90215015   4.82372379  85.92184949   0.9566642 ]
+ [  4.73516512   4.64047813  90.12815714   0.95278162]
+ [  4.64821291   4.54397058  94.53697205   0.86377794]
+ [  4.49973583   4.40653467  98.88696265   0.86440349]
+ [  4.36556578   4.26633596 103.40501904   0.80764878]
+ [  4.22707701   4.12729168 107.99180627   0.92949396]
+ [  4.17368841   4.0714407  112.37367821   0.78740728]
+ [  4.12704229   4.04275084 116.65265703   0.91136342]
+ [  4.13780642   4.06433535 122.92146039   0.78901923]
+ [  4.02527618   3.95612264 127.27091455   0.86519575]
+ [  3.94054651   3.86951709 131.60535026   0.86972636]
+ [  3.89171481   3.80604148 135.88407993   0.73042673]
+ [  3.87670755   3.80430555 140.15120292   0.74978769]
+ [  3.84839678   3.78645945 144.4069438    0.77952462]
+ [  3.78525925   3.72023487 148.68170524   0.79850864]
+ [  3.75119066   3.68328285 153.05417061   0.87577933]
+ [  3.71024156   3.63246965 157.33457565   0.76445699]
+ [  3.70023918   3.62839508 161.6140945    0.77125555]
+ [  3.67949581   3.60845947 167.98628569   0.75873363]
+ [  3.57531476   3.50525451 172.35096359   0.77770966]
+ [  3.54102087   3.47837186 176.73384213   0.91756403]]
